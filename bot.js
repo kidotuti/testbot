@@ -16,21 +16,41 @@ client.on('message', message => {
 
     if (message.content === 'kido') {
 
-       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
-    if (message.content === 'Kido') {
-
-       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
-    if (message.content === 'KIDO') {
-
-       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
-    if (message.content === 'help') {
-
-       message.reply('Bạn cần tôi giúp gì nào?');
+       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!')
 
        }
 
 });
 
+client.on('message', message => {
+
+    if (message.content === 'Kido') {
+
+       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'KIDO') {
+
+       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'help') {
+
+       message.reply('Bạn cần giúp gì nào?')
+
+       }
+
+});
  
 
 // THIS  MUST  BE  THIS  WAY
