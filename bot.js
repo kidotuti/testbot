@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 
-client.on('ready', () => {
+bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
@@ -66,6 +66,16 @@ client.on('message', message => {
 client.on('message', message => {
 
     if (message.content === 'Tiến') {
+
+       message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'tiến') {
 
        message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
 
