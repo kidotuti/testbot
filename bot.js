@@ -15,8 +15,8 @@ client.on('ready', () => {
     client.user.setStatus('dnd')
     client.user.setPresence({
         game: {
-            name: 'love you',
-            type: "STREAMING",
+            name: 'you',
+            type: 3,
             url: "https://www.twitch.tv/kidoooooooooooo"
         }
     });
