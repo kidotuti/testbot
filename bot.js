@@ -11,9 +11,9 @@ client.on('ready', () => {
 });
 
 
-bot.on('ready', () => {
-    bot.user.setStatus('dnd')
-    bot.user.setPresence({
+client.on('ready', () => {
+    client.user.setStatus('dnd')
+    client.user.setPresence({
         game: {
             name: 'you',
             type: "WATCHING",
