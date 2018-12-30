@@ -52,6 +52,15 @@ client.on('message', message => {
 
 });
  
+client.on('message', message => {
+
+    if (message.content === 'Tiến') {
+
+       message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
+
+       }
+
+});
 
 // THIS  MUST  BE  THIS  WAY
 
