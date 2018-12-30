@@ -16,8 +16,7 @@ client.on('ready', () => {
     client.user.setPresence({
         game: {
             name: 'you',
-            type: 3,
-            url: "https://www.twitch.tv/kidoooooooooooo"
+            type: 3
         }
     });
 });
