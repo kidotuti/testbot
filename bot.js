@@ -10,6 +10,17 @@ client.on('ready', () => {
 
 });
 
+
+client.on('ready', () => {
+    bot.user.setStatus('dnd')
+    bot.user.setPresence({
+        game: {
+            name: 'you',
+            type: "WATCHING",
+        }
+    });
+});
+
  
 
 client.on('message', message => {
