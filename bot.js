@@ -17,6 +17,15 @@ client.on('message', message => {
     if (message.content === 'kido') {
 
        message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
+    if (message.content === 'Kido') {
+
+       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
+    if (message.content === 'KIDO') {
+
+       message.reply('Bạn cần Kido giúp gì nào? Cứ ibox đừng ngại nhé!');
+    if (message.content === 'help') {
+
+       message.reply('Bạn cần tôi giúp gì nào?');
 
        }
 
