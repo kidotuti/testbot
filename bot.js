@@ -16,7 +16,7 @@ client.on('ready', () => {
     client.user.setPresence({
         game: {
             name: 'you',
-            type: 3
+            type: "watching",
         }
     });
 });
