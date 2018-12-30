@@ -15,8 +15,9 @@ client.on('ready', () => {
     client.user.setStatus('dnd')
     client.user.setPresence({
         game: {
-            name: 'you',
-            type: "watching",
+            name: 'Can you see me?',
+            type: "STREAMING",
+            url: "https://www.twitch.tv/kidoooooooooooo"
         }
     });
 });
