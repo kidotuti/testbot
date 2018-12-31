@@ -15,7 +15,7 @@ client.on('ready', () => {
     client.user.setStatus('dnd')
     client.user.setPresence({
         game: {
-            name: 'Can you see me?',
+            name: 'Tuần này Kido off, có gì ibox Min, Súp Mod, Mod nhé!',
             type: "STREAMING",
             url: "https://www.twitch.tv/kidoooooooooooo"
         }
@@ -63,6 +63,16 @@ client.on('message', message => {
        }
 
 });
+
+client.on('message', message => {
+
+    if (message.content === 'Help') {
+
+       message.reply('Bạn cần giúp gì nào?')
+
+       }
+
+});
  
 client.on('message', message => {
 
@@ -79,6 +89,46 @@ client.on('message', message => {
     if (message.content === 'tiến') {
 
        message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'Hello') {
+
+       message.reply('Xin chào, Mình là Kido BOT!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'hello') {
+
+       message.reply('Xin chào, Mình là Kido BOT!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'yuna') {
+
+       message.reply('đợi cu gái đáng iuz một tí nha hjhj!')
+
+       }
+
+});
+
+client.on('message', message => {
+
+    if (message.content === 'Yuna') {
+
+       message.reply('đợi cu gái đáng iuz một tí nha hjhj!')
 
        }
 
