@@ -15,7 +15,7 @@ client.on('ready', () => {
     client.user.setStatus('dnd')
     client.user.setPresence({
         game: {
-            name: 'Tuần này Kido off, có gì ibox Min, Súp Mod, Mod nhé!',
+            name: 'Type "kido", "help" for help!',
             type: "STREAMING",
             url: "https://www.twitch.tv/kidoooooooooooo"
         }
@@ -74,26 +74,6 @@ client.on('message', message => {
 
 });
  
-client.on('message', message => {
-
-    if (message.content === 'Tiến') {
-
-       message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
-
-       }
-
-});
-
-client.on('message', message => {
-
-    if (message.content === 'tiến') {
-
-       message.reply('Chờ trùm Server một tý nhé, nhanh thôi!')
-
-       }
-
-});
-
 client.on('message', message => {
 
     if (message.content === 'Hello') {
