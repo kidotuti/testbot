@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    console.log('I am ready!');
+    console.log('I am ready! Kido');
 
 });
 
@@ -58,7 +58,7 @@ client.on('message', message => {
 
     if (message.content === 'help') {
 
-       message.reply('Bạn cần giúp gì nào?')
+       message.reply('Bạn cần giúp gì nào? Các lệnh sẵn có: `kplay` để phát nhạc, `kido` để gọi Kido')
 
        }
 
@@ -68,7 +68,7 @@ client.on('message', message => {
 
     if (message.content === 'Help') {
 
-       message.reply('Bạn cần giúp gì nào?')
+       message.reply('Bạn cần giúp gì nào? Các lệnh sẵn có: `kplay` để phát nhạc, `kido` để gọi Kido')
 
        }
 
@@ -78,7 +78,7 @@ client.on('message', message => {
 
     if (message.content === 'Hello') {
 
-       message.reply('Xin chào, Mình là Kido BOT!')
+       message.reply('Xin chào, mình là Kido BOT!')
 
        }
 
@@ -88,27 +88,7 @@ client.on('message', message => {
 
     if (message.content === 'hello') {
 
-       message.reply('Xin chào, Mình là Kido BOT!')
-
-       }
-
-});
-
-client.on('message', message => {
-
-    if (message.content === 'yuna') {
-
-       message.reply('đợi cu gái đáng iuz một tí nha hjhj!')
-
-       }
-
-});
-
-client.on('message', message => {
-
-    if (message.content === 'Yuna') {
-
-       message.reply('đợi cu gái đáng iuz một tí nha hjhj!')
+       message.reply('Xin chào, mình là Kido BOT!')
 
        }
 
